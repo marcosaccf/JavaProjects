@@ -1,0 +1,349 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AccountTest",
+            "request": "launch",
+            "mainClass": "AccountTest",
+            "projectName": "Account"
+        },
+        {
+            "type": "java",
+            "name": "Launch Addition",
+            "request": "launch",
+            "mainClass": "Addition",
+            "projectName": "Addition"
+        },
+        {
+            "type": "java",
+            "name": "Launch Analysis1",
+            "request": "launch",
+            "mainClass": "Analysis1",
+            "projectName": "Analysis1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Analysis",
+            "request": "launch",
+            "mainClass": "Analysis",
+            "projectName": "Analysis"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aritmetica2",
+            "request": "launch",
+            "mainClass": "Aritmetica2",
+            "projectName": "Aritmetica2"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarioDecimal",
+            "request": "launch",
+            "mainClass": "BinarioDecimal",
+            "projectName": "BinarioDecimal"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalculadorDeComissaoDeVendas",
+            "request": "launch",
+            "mainClass": "CalculadorDeComissaoDeVendas",
+            "projectName": "CalculadorDeComissaoDeVendas"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalculadorDeSalarios",
+            "request": "launch",
+            "mainClass": "CalculadorDeSalarios",
+            "projectName": "CalculadorDeSalarios"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalculadorLimiteCredito",
+            "request": "launch",
+            "mainClass": "CalculadorLimiteCredito",
+            "projectName": "CalculadorLimiteCredito"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassAverage",
+            "request": "launch",
+            "mainClass": "ClassAverage",
+            "projectName": "ClassAverage1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassAverage(1)",
+            "request": "launch",
+            "mainClass": "ClassAverage",
+            "projectName": "ClassAverage"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstanteDeNeper",
+            "request": "launch",
+            "mainClass": "ConstanteDeNeper",
+            "projectName": "ConstanteDeNeper"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateTest",
+            "request": "launch",
+            "mainClass": "DateTest",
+            "projectName": "Date"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoisNumerosMaiores",
+            "request": "launch",
+            "mainClass": "DoisNumerosMaiores",
+            "projectName": "DoisNumerosMaiores"
+        },
+        {
+            "type": "java",
+            "name": "Launch DrawPanelTest1",
+            "request": "launch",
+            "mainClass": "DrawPanelTest1",
+            "projectName": "DrawPanel1"
+        },
+        {
+            "type": "java",
+            "name": "Launch DrawPanelTest2",
+            "request": "launch",
+            "mainClass": "DrawPanelTest2",
+            "projectName": "DrawPanel2"
+        },
+        {
+            "type": "java",
+            "name": "Launch DrawPanelTest3",
+            "request": "launch",
+            "mainClass": "DrawPanelTest3",
+            "projectName": "DrawPanel3"
+        },
+        {
+            "type": "java",
+            "name": "Launch DrawPanelTest4",
+            "request": "launch",
+            "mainClass": "DrawPanelTest4",
+            "projectName": "DrawPanel4"
+        },
+        {
+            "type": "java",
+            "name": "Launch DrawPanelTest",
+            "request": "launch",
+            "mainClass": "DrawPanelTest",
+            "projectName": "DrawPanel"
+        },
+        {
+            "type": "java",
+            "name": "Launch EmployeeTest",
+            "request": "launch",
+            "mainClass": "EmployeeTest",
+            "projectName": "Employee"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio4_6",
+            "request": "launch",
+            "mainClass": "Exercicio4_6",
+            "projectName": "Exercicio4_6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fatorial",
+            "request": "launch",
+            "mainClass": "Fatorial",
+            "projectName": "Fatorial"
+        },
+        {
+            "type": "java",
+            "name": "Launch FuncaoExponencial",
+            "request": "launch",
+            "mainClass": "FuncaoExponencial",
+            "projectName": "FuncaoExponencial"
+        },
+        {
+            "type": "java",
+            "name": "Launch HealthProfileTest",
+            "request": "launch",
+            "mainClass": "HealthProfileTest",
+            "projectName": "HealthProfile"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeartRatesTest",
+            "request": "launch",
+            "mainClass": "HeartRatesTest",
+            "projectName": "HeartRates"
+        },
+        {
+            "type": "java",
+            "name": "Launch Increment",
+            "request": "launch",
+            "mainClass": "Increment",
+            "projectName": "Increment"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvoiceTest",
+            "request": "launch",
+            "mainClass": "InvoiceTest",
+            "projectName": "Invoice"
+        },
+        {
+            "type": "java",
+            "name": "Launch LadosDeTriangulos",
+            "request": "launch",
+            "mainClass": "LadosDeTriangulos",
+            "projectName": "LadosDeTriangulo"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaiorNumero",
+            "request": "launch",
+            "mainClass": "MaiorNumero",
+            "projectName": "MaiorNumero"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplosDeDois",
+            "request": "launch",
+            "mainClass": "MultiplosDeDois",
+            "projectName": "MultiplosDeDois"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mystery2",
+            "request": "launch",
+            "mainClass": "Mystery2",
+            "projectName": "Mystery2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mystery3",
+            "request": "launch",
+            "mainClass": "Mystery3",
+            "projectName": "Mystery3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mystery",
+            "request": "launch",
+            "mainClass": "Mystery",
+            "projectName": "Mystery"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindromos",
+            "request": "launch",
+            "mainClass": "Palindromos",
+            "projectName": "Palindromos"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuadradoDeAsteriscos",
+            "request": "launch",
+            "mainClass": "QuadradoDeAsteriscos",
+            "projectName": "QuadradoDeAsteriscos"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuilometragemDeCombustivel",
+            "request": "launch",
+            "mainClass": "QuilometragemDeCombustivel",
+            "projectName": "QuilometragemDeCombustivel"
+        },
+        {
+            "type": "java",
+            "name": "Launch SaidaNoFormatoDeTabela",
+            "request": "launch",
+            "mainClass": "SaidaNoFormatoDeTabela",
+            "projectName": "SaidaNoFormatoDeTabela"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentTest",
+            "request": "launch",
+            "mainClass": "StudentTest",
+            "projectName": "Student"
+        },
+        {
+            "type": "java",
+            "name": "Launch TabuleiroDeDamas",
+            "request": "launch",
+            "mainClass": "TabuleiroDeDamas",
+            "projectName": "TabuleiroDeDamas"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrianguloRetangulo",
+            "request": "launch",
+            "mainClass": "TrianguloRetangulo",
+            "projectName": "TrianguloRetangulo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Welcome1",
+            "request": "launch",
+            "mainClass": "Welcome1",
+            "projectName": "Welcome1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Welcome2",
+            "request": "launch",
+            "mainClass": "Welcome2",
+            "projectName": "Welcome2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Welcome3",
+            "request": "launch",
+            "mainClass": "Welcome3",
+            "projectName": "Welcome3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Welcome4",
+            "request": "launch",
+            "mainClass": "Welcome4",
+            "projectName": "Welcome4"
+        }
+    ]
+}
